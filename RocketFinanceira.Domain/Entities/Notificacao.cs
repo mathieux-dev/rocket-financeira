@@ -4,6 +4,8 @@ namespace RocketFinanceira.Domain.Entities;
 
 public class Notificacao
 {
+    public Notificacao() { }
+
     public Guid Id { get; set; }
     public Guid PagadorId { get; set; }
     public Guid CobrancaId { get; set; }
