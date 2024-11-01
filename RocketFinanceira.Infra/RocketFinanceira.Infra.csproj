@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RocketFinanceira.Domain\RocketFinanceira.Domain.csproj" />
+    <ProjectReference Include="..\RocketFinanceira.Application\RocketFinanceira.Application.csproj" />
   </ItemGroup>
 
 </Project>
