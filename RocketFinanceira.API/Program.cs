@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureDatabaseServices(builder.Configuration.GetConnectionString("RocketFinanceiraDb")!);
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 
